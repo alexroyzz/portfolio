@@ -1,0 +1,19 @@
+/* ===== Cinematic intro =====
+   Imported by app/layout.tsx. Kept separate so the intro can be tuned
+   (or removed) without touching the design tokens in globals.css. */
+
+/* While the intro plays, lock scroll and hold the page back so the reveal
+   feels like a curtain lifting rather than a fade over live content. */
+html.intro-lock,
+html.intro-lock body {
+  overflow: hidden;
+}
+
+html.intro-lock .page-shell {
+  opacity: 0;
+}
+
+.page-shell {
+  opacity: 1;
+  transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}

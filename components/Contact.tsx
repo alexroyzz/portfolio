@@ -58,7 +58,7 @@ export default function Contact() {
                 rel="noreferrer"
                 className="mt-3 inline-flex items-center gap-[6px] text-[15px] hover:text-accent"
               >
-                Deepak Kumar <ArrowUpRight size={14} />
+                {site.linkedinHandle} <ArrowUpRight size={14} />
               </a>
             </div>
             <div className="bg-surface p-6">

@@ -11,10 +11,10 @@ export default function MoreProjects() {
           <p className="eyebrow">More things I&apos;ve built</p>
         </Reveal>
         <Reveal delay={0.06}>
-          <h2 className="h2 mt-6 max-w-[22ch]">Smaller builds, experiments and practice projects.</h2>
+          <h2 className="h2 mt-6 max-w-[22ch]">Live tools, smaller builds and experiments.</h2>
         </Reveal>
 
-        <div className="mt-11 grid gap-6 md:grid-cols-3">
+        <div className="mt-11 grid gap-6 md:grid-cols-2 lg:grid-cols-4">
           {moreProjects.map((p, i) => (
             <Reveal key={p.title} delay={i * 0.06}>
               <a
@@ -27,7 +27,7 @@ export default function MoreProjects() {
                 <h3 className="h3 mt-5">{p.title}</h3>
                 <p className="mt-3 flex-1 text-[14.5px] leading-[1.6] text-tx2">{p.body}</p>
                 <span className="mt-6 inline-flex items-center gap-2 text-[13.5px] text-tx2 transition-colors group-hover:text-tx">
-                  View on GitHub <ArrowUpRight size={15} />
+                  {p.cta} <ArrowUpRight size={15} />
                 </span>
               </a>
             </Reveal>

@@ -25,13 +25,15 @@ const body = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://deepak-portfolio.vercel.app"),
-  title: "Deepak — MERN Stack Developer",
+  title: "Deepak — Full Stack Developer",
   description:
-    "Deepak is a MERN stack developer in Delhi, India, building and deploying real-world e-commerce, B2B wholesale and AI-powered web products with React, Node.js, Express and MongoDB.",
+    "Deepak is a full stack developer in Delhi, India, building and deploying fast, secure e-commerce, B2B wholesale and AI-powered web products with React, Next.js, Node.js, Express and MongoDB.",
   authors: [{ name: "Deepak" }],
   keywords: [
+    "full stack developer",
     "MERN stack developer",
     "React developer",
+    "Next.js developer",
     "Node.js developer",
     "full stack developer Delhi",
     "freelance web developer India",
@@ -39,14 +41,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    title: "Deepak — MERN Stack Developer",
+    title: "Deepak — Full Stack Developer",
     description:
-      "I build real-world web products that turn ideas into business. Live e-commerce, B2B wholesale and AI platforms built with the MERN stack.",
-    siteName: "Deepak — MERN Stack Developer",
+      "I build real-world web products that turn ideas into business. Live e-commerce, B2B wholesale and AI platforms built with React, Node.js and MongoDB.",
+    siteName: "Deepak — Full Stack Developer",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Deepak — MERN Stack Developer",
+    title: "Deepak — Full Stack Developer",
     description: "I build real-world web products that turn ideas into business.",
   },
   robots: { index: true, follow: true },

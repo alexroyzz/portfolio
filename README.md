@@ -1,4 +1,4 @@
-# Deepak — MERN Stack Developer · Portfolio
+# Deepak — Full Stack Developer · Portfolio
 
 Premium dark-mode personal portfolio built with **Next.js 14 (App Router) + TypeScript + Tailwind CSS + Framer Motion + GSAP ScrollTrigger + Lenis + Lucide**.
 
